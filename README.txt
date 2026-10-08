@@ -1,11 +1,22 @@
-RABTECH ACADEMY - TASK 04
+RABTECH ACADEMY - TASK 05
 
 Files:
-- clean_dataset.csv : 10,000-row business dataset
-- Task_04_EDA.ipynb : complete EDA notebook
+1. app.py - Interactive Streamlit dashboard
+2. dashboard_dataset.csv - business dataset
+3. requirements.txt - required Python packages
+4. Dashboard_Export.pdf - dashboard PDF proof
 
-Open the notebook in Jupyter and use Cell > Run All.
-It covers descriptive statistics, mean/median/std/quartiles,
-histograms, box plots, correlation heatmap, 3 hypotheses,
-and Top 5 business findings.
-Required packages: pandas, numpy, matplotlib, scipy
+Run locally:
+1. Open this folder in VS Code / terminal.
+2. Install packages:
+   pip install -r requirements.txt
+3. Start dashboard:
+   streamlit run app.py
+
+The dashboard contains:
+- Executive KPIs: Revenue, Profit, Customers, Average Order Value, Profit Margin
+- Interactive category/region/date filters
+- Monthly revenue trend
+- Category and regional revenue charts
+- Profitability analysis
+- Executive insights
