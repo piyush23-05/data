@@ -1,22 +1,19 @@
-RABTECH ACADEMY - TASK 05
+RABTECH ACADEMY - TASK 06
 
-Files:
-1. app.py - Interactive Streamlit dashboard
-2. dashboard_dataset.csv - business dataset
-3. requirements.txt - required Python packages
-4. Dashboard_Export.pdf - dashboard PDF proof
+Deliverables:
+1. Executive_Decision_Report.pptx - 12-slide executive presentation
+2. Executive_Decision_Report.pdf - PDF report version
+3. dashboard_dataset.csv - analytics dataset used for the report
 
-Run locally:
-1. Open this folder in VS Code / terminal.
-2. Install packages:
-   pip install -r requirements.txt
-3. Start dashboard:
-   streamlit run app.py
+The presentation includes:
+- Executive summary
+- KPI scorecard
+- Methodology
+- Revenue drivers
+- Risk areas
+- 3 strategic recommendations
+- Illustrative ROI projection
+- Implementation timeline
+- Final decisions and next steps
 
-The dashboard contains:
-- Executive KPIs: Revenue, Profit, Customers, Average Order Value, Profit Margin
-- Interactive category/region/date filters
-- Monthly revenue trend
-- Category and regional revenue charts
-- Profitability analysis
-- Executive insights
+Note: ROI figures are illustrative planning estimates, not guaranteed financial results.
