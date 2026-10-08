@@ -1,13 +1,11 @@
-RABTECH ACADEMY - TASK 03
+RABTECH ACADEMY - TASK 04
 
-Keep these files in the same folder:
-1. raw_dataset.xlsx
-2. Task_03_Data_Cleaning.ipynb
+Files:
+- clean_dataset.csv : 10,000-row business dataset
+- Task_04_EDA.ipynb : complete EDA notebook
 
-Open the notebook in Jupyter and choose Cell > Run All.
-The notebook will create:
-3. clean_dataset.csv
-
-The Excel file contains 10,000+ rows with intentional missing values,
-duplicates, inconsistent category formatting, incorrect numeric types,
-and outliers so the cleaning steps can be demonstrated.
+Open the notebook in Jupyter and use Cell > Run All.
+It covers descriptive statistics, mean/median/std/quartiles,
+histograms, box plots, correlation heatmap, 3 hypotheses,
+and Top 5 business findings.
+Required packages: pandas, numpy, matplotlib, scipy
